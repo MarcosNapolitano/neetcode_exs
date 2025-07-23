@@ -42,7 +42,7 @@ int main(){
     Solution a;
     vector<int> nums = { 1, 2, 3, 5 };
 
-    cout << a.hasDuplicate(nums);
+    cout << a.hasDuplicate(nums) << endl;
     cout << a.containsDuplicate(nums);
 
     return 0;

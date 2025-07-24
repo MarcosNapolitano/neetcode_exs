@@ -32,7 +32,7 @@ int main(){
             };
 
             for (auto& p : map)
-                if (p.second > 0) return false;
+                if (p.second != 0) return false;
 
             return true;
         };

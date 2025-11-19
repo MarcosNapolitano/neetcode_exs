@@ -18,10 +18,10 @@ int main(){
                     string key = i;
                     sort(key.begin(), key.end());
 
-                    if (map.find(i) == map.end())
-                        map[i] = {value};
+                    if (map.find(key) == map.end())
+                        map[key] = {i};
                     else
-                        map.find(i)->second.push_back(i);
+                        map.find(key)->second.push_back(i);
 
                 };
                 for (auto it = map.begin(); it != map.end(); ++it)
